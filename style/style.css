@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* header start */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+.header__left{
+    display: flex;
+}
+.logo{
+    padding: 0 160px 0 70px;
+    font-size: 26px;
+    font-family:  'Poppins';
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header__left ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.header__left ul li{
+    font-family:  'Sofia Pro';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C3847;
+    transition: 300ms;
+    cursor: pointer;
+}
+.header__left ul li:hover{
+    color: #5FB848;
+
+}
+
+.header__right{
+    display: flex;
+    gap: 20px;
+    padding-right: 68px;
+    align-items: center;
+}
+.header__right i:first-child{
+    width: 20px;
+    height: 20px;
+}
+.first__button {
+    width: 160px;
+    height: 54px;
+    font-size: 20px;
+    padding: 14px 30px;
+    border-radius: 27px;
+    border: none;
+    background: #494949;
+    color: white;
+    position: relative;
+    /* Удалено: left: 1242px; */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.first__button:hover {
+    color: #FFFFFF;
+    background:#5FB848;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.first__button:active {
+    transform: scale(0.9);
+}
+/* header end */
+
+/* first screen start */
+.first__screen{
+    display: flex;
+    margin-bottom: 52px;
+}
+.first__screen__left{
+    margin: 0 0  0 135px;
+    width: 596px;
+    height: 531px;
+    padding: 137px 0 0 0;
+}
+.first__screen__left h1{
+    font-family: 'Sharp Sans No1';
+    font-size: 70px;
+    font-weight: 770;
+    line-height: 95px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+span{
+    color: #5FB848;
+}
+.first__screen__left p{
+    font-family: 'Sharp Sans No1';
+    font-size: 24px;
+    font-weight: 750;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 30px 0 50px 0
+}
+.second__button{
+    width: 200px;
+    height: 64px;
+    font-family: 'Sofia Pro';
+    font-size: 24px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    color: white;
+    position: relative;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s, transform 0.5s;
+}
+.second__button:hover {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    transform: scale(1.05);
+}
+
+.second__button:active {
+    transform: scale(0.9);
+}
+
+.first__screen__right img{
+    width: 786px;
+    Top:561.4px;
+    Left:553px;
+    background-image: url(../image/bg\ elements.png);
+    background-repeat: no-repeat;
+}
+/* first screen end */
+.second__screen{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.second__screen-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ h2{
+    font-family: 'Sharp Sans No1';
+    font-size: 54px;
+    font-weight: 770;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #151414;
+}
+p{
+    font-family: 'Sharp Sans No1';
+    font-size: 24px;
+    font-weight: 750;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 0 62px;
+    color: #181D19;
+}
+.second__screen-center{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.second__screen-center-icon{
+    width: 270px;
+}
+.second__screen-center-icon h3{
+    font-family: 'Sharp Sans No1';
+    font-size: 28px;
+    font-weight: 770;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 36px 0 18px;
+
+}
+.second__screen-center-icon p{
+    font-family: 'Sharp Sans No1';
+    font-size: 18px;
+    font-weight: 750;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.second__screen-bottom{
+    display: flex;
+    gap:150px
+}
+.second__screen-bottom-card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.second__screen-bottom-card h3{
+    font-family: Sharp Sans No1;
+    font-size: 44px;
+    font-weight: 780;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 60px 0 20px ;
+}
+.second__screen-bottom-card p {
+    font-family: 'Sharp Sans No1';
+    font-size: 20px;
+    font-weight: 760;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+/* second screen end */
+/* about us screen  */
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 120px;
+}
+.about-us__left{
+    padding-right: 95px;
+}
+.about-us__left h2{
+    text-align: left;
+}
+.about-us__left p{
+    font-family: 'Sharp Sans No1';
+    font-size: 22px;
+    font-weight: 750;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 500px;
+    padding: 30px 0 84px;
+}
+.about-us__right img{
+    width: 640px;
+}
+/* about us end */
+/* fresh vegetables start */
+.vegetables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.vegetables__right{
+    width: 516px;
+    padding-left: 40px;
+}
+.vegetables__right h2{
+    text-align: left;
+}
+.vegetables__right p{
+    padding: 30px 0 40px;
+}
+/* fresh vegetables end */
+/* chef start */
+.chef{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.chef__left{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: left;
+    max-width: 500px;
+}
+
+.chef__left h2{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.chef__left p{
+    margin-bottom: 30px;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+
+.checkbox{
+    display: flex;
+    text-align: left;
+    gap: 17px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-family: Sharp Sans No1;
+    font-size: 20px;
+    font-weight: 750;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+input[type="checkbox"] {      
+ background: #EF2779; /* Новый цвет */
+}
+    
